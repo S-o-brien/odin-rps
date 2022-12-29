@@ -1,0 +1,49 @@
+body  {
+    background-color: #f1f1f1;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.title {
+    font-size: 300%;
+}
+
+.rockBtn, .paperBtn, .scissorsBtn, .resetBtn {
+    background-color: #e7e7e7; color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    border-color: #2600ff;
+
+}
+
+.rockBtn:hover, .paperBtn:hover, .scissorsBtn:hover, .resetBtn:hover {
+    background-color: #2600ff;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+} 
+
+.rockBtn, .paperBtn, .scissorsBtn {
+    font-size: 24px;
+    padding: 20px;
+}
+
+.btnList {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.displayResults {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: auto;
+}
